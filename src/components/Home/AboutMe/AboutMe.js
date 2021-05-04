@@ -1,9 +1,9 @@
 import React from 'react';
-import desktop from '../../../images/desktop.png'
-import heartBeat from '../../../images/heartbeat.png'
-import direct from '../../../images/direct.png'
+import desktop from '../../../images/desktop.png';
+import heartBeat from '../../../images/heartbeat.png';
+import direct from '../../../images/direct.png';
 import SpecialitiesCard from '../SpecialitiesCard/SpecialitiesCard';
-import aboutMeIMG from '../../../images/about-me-img.png'
+import aboutMeIMG from '../../../images/about-me-img.png';
 
 const AboutMe = () => {
   const specialities = [{

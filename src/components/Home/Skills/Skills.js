@@ -17,15 +17,14 @@ const Skills = () => {
     setTools(toolsData);
   }, [])
   return (
-    <section className="container" style={{ height: '790px' }}>
+    <section className="container" style={{ height: '990px' }}>
       <h1>My Skills Set</h1>
 
       <div className='row mt-5'>
-        <div className='col-12'>
-          <hr/>
+        <div className='col-md-12 col-sm-12'>
+          <hr />
           <h3><u>Expertise</u></h3>
-          <hr/>
-          <div className="row d-flex justify-content-between align-items-center">
+          <div className="row d-flex justify-content-center align-items-center">
             {
               expertise.map(skill => <SkillsFigure skill={skill} key={skill.id}></SkillsFigure>)
             }
@@ -34,10 +33,10 @@ const Skills = () => {
       </div>
 
       <div className='row  mt-2'>
-        <div className='col-12'>
-          <h3>Comfortable</h3>
+        <div className='col-md-12 col-sm-12'>
           <hr/>
-          <div className="row d-flex justify-content-between align-items-center">
+          <h3><u>Comfortable</u></h3>
+          <div className="row d-flex justify-content-center align-items-center">
             {
               comfortable.map(skill => <SkillsFigure skill={skill} key={skill.id}></SkillsFigure>)
             }
@@ -46,10 +45,10 @@ const Skills = () => {
       </div>
 
       <div className='row  mt-2'>
-        <div className='col-12'>
-          <h3>Familiar</h3>
+        <div className='col-md-12 col-sm-12'>
           <hr/>
-          <div className="row d-flex justify-content-between align-items-center">
+          <h3><u>Familiar</u></h3>
+          <div className="row d-flex justify-content-center align-items-center">
             {
               familiar.map(skill => <SkillsFigure skill={skill} key={skill.id}></SkillsFigure>)
             }
@@ -58,14 +57,15 @@ const Skills = () => {
       </div>
 
       <div className='row mt-2'>
-        <div className='col-12'>
-          <h3>Tools</h3>
-          <hr/>
-          <div className="row d-flex justify-content-between align-items-center">
+        <div className='col-md-12 col-sm-12'>
+          <hr />
+          <h3><u>Tools</u></h3>
+          <div className="row d-flex justify-content-center align-items-center">
             {
               tools.map(skill => <SkillsFigure skill={skill} key={skill.id}></SkillsFigure>)
             }
           </div>
+          <hr />
         </div>
       </div>
 
