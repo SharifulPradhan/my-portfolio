@@ -1,0 +1,37 @@
+[{
+  "id": 1,
+  "title": "Travel Maniacs",
+  "title2": "Travel Agency Website",
+  "projectDetails1": "Travel Maniacs is a fully responsive travel agency website",
+  "projectDetails2": "A user can buy a tour package. When the user clicks on the package, the user will redirect to the login page. After successfully logged in, the user can buy the package by completing the payment process. After that, if the user wants, he or she can also give feedback as well from the review option.",
+  "projectDetails3": "An admin can add a new package in the admin dashboard’s add package option. And also can remove or modify a package in the admin dashboard’s manage package option. An admin is also able to see all the bookings and update the booking status in the admin dashboard’s bookings option.",
+  "projectLiveSite": "https://travel-maniacs-1d6fc.web.app/",
+  "projectCode": "https://github.com/shariful-pradhan-hridoy/travel-maniacs",
+  "screenshot1": "https://i.ibb.co/DKTX05x/travel-maniacs-mockup.jpg",
+  "screenshot2": "https://i.ibb.co/bJqpxpW/travel-maniacs-loginpage.jpg",
+  "screenshot3": "https://i.ibb.co/0rX4Rcb/travel-maniacs-dashboard.jpg"
+}, {
+  "id": 2,
+  "title": "Happy Mart",
+  "title2": "Grocery Store Website",
+  "projectDetails1": "Happy Mart is a responsive Grocery Store Website.",
+  "projectDetails2": "A user can buy a product from the Happy Mart homepage. When the user clicks the buy now button, the user will be redirected to the login page. After successfully logged in by google sign-in or another method, the user can check out the product. Users can also check the user’s orders on the Order page.",
+  "projectDetails3": "An admin can add products in the add product section of the admin page, which will be shown on the Home page instantly.",
+  "projectLiveSite": "https://happy-mart-9b1e4.web.app/",
+  "projectCode": "https://github.com/shariful-pradhan-hridoy/happy-mart",
+  "screenshot1": "https://i.ibb.co/wWwm6WJ/happy-mart-mockup.jpg",
+  "screenshot2": "https://i.ibb.co/LDFdRqs/happy-mart-dashboard.jpg",
+  "screenshot3": "https://i.ibb.co/MCWYhJ5/happy-mart-orders.jpg"
+}, {
+  "id": 3,
+  "title": "Ride Guru",
+  "title2": "Ridesharing WebApp",
+  "projectDetails1": "Ride Guru is a Ridesharing Web App.",
+  "projectDetails2": "Clients can book a ride and select their destination after login in using the google authentication system implemented using firebase.",
+  "projectDetails3": "Users can see the ride details on the user dashboard with a map.",
+  "projectLiveSite": "https://digg.com/quis/tortor/id.html",
+  "projectCode": "https://github.com/shariful-pradhan-hridoy/ride-guru",
+  "screenshot1": "https://i.ibb.co/BHpzV2T/ride-guru-mockup.jpg",
+  "screenshot2": "https://i.ibb.co/Dtp6zGq/ride-guru-login.jpg",
+  "screenshot3": "https://i.ibb.co/qn87PyW/ride-guru-destination.jpg"
+}]

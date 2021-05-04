@@ -3,7 +3,7 @@ import React from 'react';
 const SpecialitiesCard = ({speciality}) => {
   const {icon, title, description} = speciality;
   return (
-    <div className="col-md-4">
+    <div className="col-md-4 col-sm-12">
       <img src={icon} alt="" style={{width:'70px'}}/>
       <div className="mt-3">
         <h3>{title}</h3>
