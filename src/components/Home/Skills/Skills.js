@@ -17,7 +17,7 @@ const Skills = () => {
     setTools(toolsData);
   }, [])
   return (
-    <section className="container" style={{ height: '990px' }}>
+    <section className="container">
       <h1>My Skills Set</h1>
 
       <div className='row mt-5'>

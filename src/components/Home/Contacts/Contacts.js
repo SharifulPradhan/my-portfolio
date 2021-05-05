@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contacts = () => {
   return (
-    <section className="container text-center border rounded p-5 mb-5" style={{ backgroundColor: '#f2f2f2' }}>
+    <section className="container text-center border rounded p-5 mb-5" style={{ backgroundColor: '#f2f2f2' }} id="contacts">
       <h1>Contact me</h1>
       <hr />
       <div className="row d-flex align-items-center font-weight-bold">
@@ -34,7 +34,7 @@ const Contacts = () => {
               <textarea name="message" id="" cols="30" rows="10" className="form-control"
                 placeholder="Your message here"></textarea>
             </div>
-            <button type="submit" className="btn btn-success">Send</button>
+            <button type="submit" className="button-style">Send</button>
           </form>
         </div>
 

@@ -8,15 +8,15 @@ import './NavigationMenu.css'
 const NavigationMenu = () => {
 
   return (
-    <Navbar collapseOnSelect expand="md" variant="light" fixed='top' className="container pt-3 justify-content-center">
+    <Navbar collapseOnSelect expand="md" variant="light" fixed='top' className="container pt-3 justify-content-between nav-bg">
       <Navbar.Brand as={Link} to="/home"><img src={logo} alt="" className="nav-logo" /></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto nav-bg">
-          <Nav.Link as={Link} to="/home" className="active mr-4 nav-link-style">Home</Nav.Link>
+          <Nav.Link href="#home" className="active mr-4 nav-link-style">Home</Nav.Link>
           <Nav.Link href="#projects" className="mr-4 nav-link-style">Projects</Nav.Link>
           <Nav.Link href="#blogs" className="mr-4 nav-link-style">Blogs</Nav.Link>
-          <Nav.Link href="#Contacts" className="mr-4 nav-link-style">Contacts</Nav.Link>
+          <Nav.Link href="#contacts" className="mr-4 nav-link-style">Contacts</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

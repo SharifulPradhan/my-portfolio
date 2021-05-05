@@ -3,10 +3,10 @@ import BlogCard from '../BlogCard/BlogCard';
 
 const Blogs = () => {
   return (
-    <div className="container mb-5 mt-5" style={{ hieght: "400px" }}>
+    <div className="container mb-5 mt-5" id="blogs">
       <h1>Most Recent Blogs</h1>
       <hr/>
-      <div className="d-flex flex-wrap justify-content-between ">
+      <div className="d-flex flex-wrap justify-content-center">
         <BlogCard />
         <BlogCard />
         <BlogCard />

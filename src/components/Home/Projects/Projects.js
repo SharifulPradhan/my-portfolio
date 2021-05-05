@@ -9,7 +9,7 @@ const Projects = () => {
   }, [])
 
   return (
-    <section style={{height:'1570px'}} className='container d-flex flex-column mt-5' id="projects">
+    <section className='container d-flex flex-column mt-5' id="projects">
       <h1>Some of my recent projects - take a look.</h1>
       {
         projects.map(project => <ProjectsCard project={project} key={project.id}></ProjectsCard>)
