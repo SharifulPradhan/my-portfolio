@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap';
 
 const BlogCard = () => {
   return (
-    <Card style={{ width: '18rem' }} className='border rounded shadow mb-5 ml-5 mr-5'>
+    <Card style={{ width: '18rem' }} className='border rounded shadow mb-5 ml-3 mr-3'>
       <Card.Img variant="top" src="https://miro.medium.com/max/700/1*X3P5a3VqgPYqk_bbkmJMrw.jpeg" />
       <Card.Body>
         <Card.Title>Top 10 Things I have Learned by Exploring Javascript Today.</Card.Title>
