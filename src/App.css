@@ -28,3 +28,9 @@ p, figcaption{
   background-color: #fff;
   border: 1px solid black;
 }
+
+@media (max-width: 476px) {
+  .button-style {
+    padding: 10px 20px;
+  }
+}
