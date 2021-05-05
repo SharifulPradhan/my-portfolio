@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../../Shared/Footer/Footer';
 import AboutMe from '../AboutMe/AboutMe';
+import Blogs from '../Blogs/Blogs';
 import Contacts from '../Contacts/Contacts';
 import Header from '../Header/Header';
 import Projects from '../Projects/Projects';
@@ -11,8 +12,9 @@ const Home = () => {
     <div>
       <Header />
       <AboutMe />
-      <Projects />
       <Skills />
+      <Projects />
+      <Blogs />
       <Contacts />
       <Footer />
     </div>

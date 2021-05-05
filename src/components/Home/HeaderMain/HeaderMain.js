@@ -12,7 +12,7 @@ const HeaderMain = () => {
           <a href='https://drive.google.com/u/0/uc?id=1onRfXqMzFAwdXQfc3Ats26E3SLcoqW6Q&export=download' download><button className="button-style">Download Resume</button></a>
         </div>
         <div className="col-md-6 col-sm-12">
-          <img src={headerBG} alt=""/>
+          <img src={headerBG} alt="" className/>
         </div>
       </div>
     </main>
